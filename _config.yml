@@ -99,6 +99,6 @@ theme: next
 #   type: ''
 deploy:
   type: git
-  repo: https://github.com/kirkzheng/kirkzheng.github.io
+  repo: https://github.com/kirkzheng/kirkzheng.github.io.git
   branch: master
 
