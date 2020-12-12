@@ -90,3 +90,5 @@
   {% include '_third-party/exturl.swig' %}
 </body>
 </html>
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>

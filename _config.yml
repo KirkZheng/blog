@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: KZ96的博客
+title: 俗人小窝
 subtitle: '编程&生活'
-description: ''
+description: '爱生活、爱折腾'
 keywords:
 author: kz96
 language: zh-Hans
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://yoursite.com/
+url: https://kirkzheng.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,3 +102,8 @@ deploy:
   repo: git@github.com:KirkZheng/kirkzheng.github.io.git
   branch: master
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
