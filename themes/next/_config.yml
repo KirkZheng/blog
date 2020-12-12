@@ -87,11 +87,11 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 
 # ---------------------------------------------------------------
@@ -114,7 +114,7 @@ menu:
 social:
   GitHub: https://github.com/kirkzheng
   Twitter: https://twitter.com/kirkzheng
-  给作者发邮件: mailto:1757225882@qq.com
+  给kz96发邮件: mailto:1757225882@qq.com
 
 
 
@@ -230,10 +230,10 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /images/name.png
-  description: 加作者为好友
+  description: 加kz96为好友
 
 # 打赏
-reward_comment: 请作者喝杯咖啡
+reward_comment: 请kz96喝杯咖啡
 wechatpay: /images/money.png
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
@@ -681,16 +681,16 @@ pace: false
 pace_theme: pace-theme-minimal
 #特效设置
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
-canvas_lines: false
+canvas_lines: true
 
 # canvas_sphere
-canvas_sphere: false
+canvas_sphere: true
 
 # Only fit scheme Pisces
 # Canvas-ribbon
