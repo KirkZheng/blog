@@ -110,7 +110,7 @@ menu:
   archives: /archives/
   about: /about/
 
-#侧边栏链接
+#联系方式
 social:
   GitHub: https://github.com/kirkzheng
   Twitter: https://twitter.com/kirkzheng
@@ -125,9 +125,9 @@ social:
 
 # 主题设置
 #scheme: Muse
-#scheme: Mist
+scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -140,22 +140,27 @@ links_title: 友情链接
 #links_layout: block
 links_layout: inline
 links:
-  阮一峰的网络日志: http://www.ruanyifeng.com/blog/
+    阮一峰的网络日志: http://www.ruanyifeng.com/blog/
+    核电站: https://0792z.blogspot.com/
+    编程随想的博客: https://program-think.blogspot.com/
+    品葱: https://pincong.rocks/
+    V2EX: https://v2ex.com/?tab=hot
+
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 avatar: /images/kz96.jpg
 
-# Table Of Contents in the Sidebar
+# 目录
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -230,7 +235,7 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /images/name.png
-  description: 加kz96为好友
+  description: 微信扫一扫！加kz96为好友
 
 # 打赏
 reward_comment: 请kz96喝杯咖啡
