@@ -167,9 +167,9 @@ toc:
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
 #creative_commons:
-
+#侧边栏位置
 sidebar:
-  # Sidebar Position, available value: left | right (only for Pisces | Gemini).
+  # 只对特定主题有效: left | right (only for Pisces | Gemini).
   position: left
   #position: right
 
@@ -187,13 +187,13 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
-  scrollpercent: fasle
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 
 # ---------------------------------------------------------------
@@ -201,18 +201,18 @@ sidebar:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: false
+scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
 
 # Automatically Excerpt. Not recommend.
-# Please use <!-- more --> in the post to control excerpt accurately.
+#主页显示文章的部分
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -337,7 +337,7 @@ mathjax:
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
-han: false
+han: true
 
 # Swiftype Search API Key
 #swiftype_key:
@@ -364,7 +364,7 @@ changyan:
   appkey:
 
 
-# Valine.
+# Valine评论系统
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
