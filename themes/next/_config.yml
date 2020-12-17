@@ -113,25 +113,15 @@ menu:
 #联系方式
 social:
   GitHub: https://github.com/kirkzheng
-  给kz96发邮件: mailto:1757225882@qq.com
+  Twitter: https://twitter.com/KirkZheng
 
-
-
-
-# ---------------------------------------------------------------
-# Scheme Settings
-# ---------------------------------------------------------------
 
 # 主题设置
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
-
-# ---------------------------------------------------------------
-# Sidebar Settings
-# ---------------------------------------------------------------
 
 # Blog rolls
 links_icon: link
@@ -139,14 +129,12 @@ links_title: 友情链接
 #links_layout: block
 links_layout: inline
 links:
-    编程妙妙屋: https://www.skypyb.com/
+    编码妙妙屋: https://www.skypyb.com/
 
-# Sidebar Avatar
-# in theme directory(source/images): /images/avatar.gif
-# in site  directory(source/uploads): /uploads/avatar.gif
+# 设置头像
 avatar: /images/kz96.jpg
 
-# 目录
+# 目录设置
 toc:
   enable: true
 
@@ -156,11 +144,6 @@ toc:
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: true
 
-# Creative Commons 4.0 International License.
-# http://creativecommons.org/
-# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
-#creative_commons:
 #侧边栏位置
 sidebar:
   # 只对特定主题有效: left | right (only for Pisces | Gemini).
@@ -261,7 +244,7 @@ android_chrome_color: "#222"
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image:
+  image: 
 
 # Code Highlight theme
 # Available value:
@@ -291,27 +274,27 @@ font:
     global:
       external: true
       family: Noto Serif SC
-      size:
+      size: 30px
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
-    size:
+    family: 微软雅黑
+    size: 30px
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: 微软雅黑
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    family: 微软雅黑
+    size: 30px
 
   # Font settings for <code> and code blocks.
     codes:
@@ -326,8 +309,8 @@ font:
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/

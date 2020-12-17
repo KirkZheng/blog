@@ -4,12 +4,11 @@
 
 # Site
 title: kz96的博客
-subtitle: '编程&生活'
-description: '爱生活、爱编程'
+subtitle: 编程&生活
 keywords:
 author: kz96
 language: zh-Hans
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
