@@ -113,6 +113,7 @@ menu:
 #联系方式
 social:
   GitHub: https://github.com/kirkzheng
+  Email: mailto:kirkzheng@qq.com
   Twitter: https://twitter.com/KirkZheng
 
 
@@ -288,6 +289,7 @@ font:
   posts:
     external: true
     family: 微软雅黑
+    size: 30px
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -300,7 +302,7 @@ font:
     codes:
       external: true
       family: Roboto Mono
-      size:
+      size: 30px
 
 
 # ---------------------------------------------------------------
