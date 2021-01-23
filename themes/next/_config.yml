@@ -221,13 +221,6 @@ wechatpay: /images/money.png
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
-# Declare license on posts
-post_copyright:
-  enable: true
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
-
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -245,7 +238,7 @@ android_chrome_color: "#222"
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: 
+  image:
 
 # Code Highlight theme
 # Available value:
@@ -266,30 +259,6 @@ mathjax:
 # Han Support docs: https://hanzi.pro/
 han: true
 
-# Swiftype Search API Key
-#swiftype_key:
-
-# Baidu Analytics ID
-#baidu_analytics:
-
-# Duoshuo ShortName
-#duoshuo_shortname:
-
-# Disqus
-disqus:
-  enable: false
-  shortname:
-  count: true
-
-# Hypercomments
-#hypercomments_id:
-
-# changyan
-changyan:
-  enable: false
-  appid:
-  appkey:
-
 
 # Valine评论系统
 # You can get your appid and appkey from https://leancloud.cn
@@ -303,7 +272,7 @@ valine:
   placeholder: 留下你的足迹吧... # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
+  pageSize: 6 # pagination size
 
 
 
@@ -349,16 +318,9 @@ exturl: false
 
 # Note tag (bs-callout).
 note:
-  # Note tag style values:
-  #  - simple    bs-callout old alert style. Default.
-  #  - modern    bs-callout new (v2-v3) alert style.
-  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
-  #  - disabled  disable all CSS styles import of note tag.
   style: simple
   icons: false
   border_radius: 3
-  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
-  # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
 
 # Label tag.
@@ -372,24 +334,10 @@ tabs:
     labels: true
   border_radius: 0
 
-
-#! ---------------------------------------------------------------
-#! DO NOT EDIT THE FOLLOWING SETTINGS
-#! UNLESS YOU KNOW WHAT YOU ARE DOING
-#! ---------------------------------------------------------------
-
-# Use velocity to animate everything.
 motion:
   enable: true
   async: false
   transition:
-    # Transition variants:
-    # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
-    # swoopIn | swoopOut | whirlIn | whirlOut | shrinkIn | shrinkOut | expandIn | expandOut
-    # bounceIn | bounceOut | bounceUpIn | bounceUpOut | bounceDownIn | bounceDownOut | bounceLeftIn | bounceLeftOut | bounceRightIn | bounceRightOut
-    # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
-    # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
-    # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
     post_block: fadeIn
     post_header: slideDownIn
     post_body: slideDownIn
