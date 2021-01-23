@@ -369,7 +369,7 @@ pace: false
 pace_theme: pace-theme-minimal
 #特效设置
 # Canvas-nest
-#canvas_nest: true
+canvas_nest: true
 
 # three_waves
 #three_waves: true
