@@ -367,29 +367,7 @@ pace: false
 # For example
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
-#特效设置
-# Canvas-nest
-canvas_nest: true
 
-# three_waves
-#three_waves: true
-
-# canvas_lines
-#canvas_lines: true
-
-# canvas_sphere
-#canvas_sphere: true
-
-# Only fit scheme Pisces
-# Canvas-ribbon
-# size: The width of the ribbon.
-# alpha: The transparency of the ribbon.
-# zIndex: The display level of the ribbon.
-canvas_ribbon:
-  enable: false
-  size: 300
-  alpha: 0.6
-  zIndex: -1
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
