@@ -133,7 +133,7 @@ links:
     编码妙妙屋: https://www.skypyb.com/
 
 # 设置头像
-avatar: /images/kz96.jpg
+avatar: /images/头像.jpg
 
 # 目录设置
 toc:
@@ -212,13 +212,13 @@ post_wordcount:
 # 微信订阅
 wechat_subscriber:
   enabled: true
-  qcode: /images/name.png
+  qcode: /images/名片.jpg
   description: 微信扫一扫！加kz96为好友
 
 # 打赏
 reward_comment: 请kz96喝杯咖啡
-wechatpay: /images/money.png
-#alipay: /images/alipay.jpg
+wechatpay: /images/赞赏.jpg
+alipay: /images/收款.jpg
 #bitcoin: /images/bitcoin.png
 
 # ---------------------------------------------------------------
