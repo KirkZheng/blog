@@ -63,7 +63,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: kz96
+  copyright: 
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: true
@@ -113,7 +113,7 @@ menu:
 #联系方式
 social:
   GitHub: https://github.com/kirkzheng
-  给kz96发邮件: mailto:1757225882@qq.com
+  给柯克发邮件: mailto:1757225882@qq.com
 
 
 
@@ -144,7 +144,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/kz96.jpg
+avatar: /images/柯克.jpg
 
 # 目录
 toc:
@@ -229,10 +229,10 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /images/name.png
-  description: 微信扫一扫！加kz96为好友
+  description: 微信扫一扫！加柯克为好友
 
 # 打赏
-reward_comment: 请kz96喝杯咖啡
+reward_comment: 请柯克喝杯咖啡
 wechatpay: /images/money.png
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
