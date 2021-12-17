@@ -114,23 +114,13 @@ menu:
 social:
   推特: https://twitter.com/KirkZheng
 
-
-
-
-# ---------------------------------------------------------------
-# Scheme Settings
-# ---------------------------------------------------------------
-
 # 主题设置
 #scheme: Muse
 scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
-
-# Sidebar Avatar
-# in theme directory(source/images): /images/avatar.gif
-# in site  directory(source/uploads): /uploads/avatar.gif
+#侧栏头像设置
 avatar: /images/柯克.jpg
 
 # 目录
