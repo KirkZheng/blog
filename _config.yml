@@ -99,7 +99,7 @@ theme: next
 #   type: ''
 deploy:
   type: git
-  repo: git@github.com:KirkZheng/kirkzheng.github.io.git
+  repo: https://github.com/KirkZheng/kirkzheng.github.io.git
   branch: master
 
 search:
