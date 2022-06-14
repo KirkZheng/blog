@@ -116,12 +116,12 @@ social:
 
 # 主题设置
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 #scheme: Gemini
 
 #侧栏头像设置
-avatar: /images/柯克.jpg
+avatar: /images/微信图片_20220615024933.jpg
 
 # 目录
 toc:
@@ -205,12 +205,12 @@ post_wordcount:
 # 微信订阅
 wechat_subscriber:
   enabled: true
-  qcode: /images/name.jpg
+  qcode: /images/微信图片_20220615025124.jpg
   description: 微信扫一扫！加柯克为好友
 
 # 打赏
 reward_comment: 
-wechatpay: /images/money.jpg
+wechatpay: /images/微信图片_20220615025118.jpg
 
 # Declare license on posts
 post_copyright:
@@ -508,9 +508,10 @@ pace: false
 # For example
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
+
 #特效设置
-# Canvas-nest
-#canvas_nest: true
+#Canvas-nest
+canvas_nest: true
 
 # three_waves
 #three_waves: true
