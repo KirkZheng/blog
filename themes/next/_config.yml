@@ -207,7 +207,7 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /images/微信图片_20220615025124.jpg
-  description: 微信扫一扫！加柯克为好友
+  description: 微信扫一扫！加kz96为好友
 
 # 打赏
 reward_comment: 
