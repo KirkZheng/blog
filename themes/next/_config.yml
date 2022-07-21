@@ -110,18 +110,19 @@ menu:
   archives: /archives/
   about: /about/
 
-#联系方式
+#友情链接
 social:
   Twitter: https://twitter.com/mr_kz96
-  GitHub: https://github.com/KirkZheng
   Instagram: https://www.instagram.com/kirkzheng/
+  GitHub: https://github.com/KirkZheng
+  
   
   
 
 # 主题设置
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 #scheme: Gemini
 
 #侧栏头像设置
