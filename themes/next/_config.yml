@@ -514,7 +514,7 @@ pace_theme: pace-theme-minimal
 
 #特效设置
 #Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 #three_waves: true
