@@ -112,15 +112,16 @@ menu:
 
 #联系方式
 social:
-  知乎: https://www.zhihu.com/people/mr_kirkzheng
-  IG: https://www.instagram.com/kirkzheng/
-  推特: https://twitter.com/mr_kz96
+  Twitter: https://twitter.com/mr_kz96
+  GitHub: https://github.com/KirkZheng
+  Instagram: https://www.instagram.com/kirkzheng/
+  
   
 
 # 主题设置
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 #scheme: Gemini
 
 #侧栏头像设置
