@@ -63,7 +63,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: 
+  copyright: kz96
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: true
@@ -98,11 +98,7 @@ index_with_subtitle: true
 # Menu Settings
 # ---------------------------------------------------------------
 
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
-# Usage: `Key: /link/ || icon`
-# Key is the name of menu item. If translate for this menu will find in languages - this translate will be loaded; if not - Key name will be used. Key is case-senstive.
-# Value before `||` delimeter is the target link.
-# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+
 menu:
   home: /
   tags: /tags/
@@ -110,22 +106,40 @@ menu:
   archives: /archives/
   about: /about/
 
-#友情链接
+#联系方式
 social:
-  Instagram: https://www.instagram.com/kirkzheng/
-  GitHub: https://github.com/KirkZheng
+  GitHub: https://github.com/kirkzheng
   Twitter: https://twitter.com/mr_kz96
-  
-  
+  Instagram: https://www.instagram.com/kirkzheng/
+  给kz96发邮件: mailto:1757225882@qq.com
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
 
 # 主题设置
 #scheme: Muse
-scheme: Mist
+#scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
-#侧栏头像设置
-avatar: /images/微信图片_20220615024933.jpg
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+# Blog rolls
+links_icon: link
+links_title: 友情链接
+#links_layout: block
+links_layout: inline
+links:
+    编程妙妙屋: https://www.skypyb.com/
+    阮一峰的网络日志: http://ruanyifeng.com/blog/
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.gif
+# in site  directory(source/uploads): /uploads/avatar.gif
+avatar: /images/kz96.jpg
 
 # 目录
 toc:
@@ -209,12 +223,14 @@ post_wordcount:
 # 微信订阅
 wechat_subscriber:
   enabled: true
-  qcode: /images/微信图片_20220615025124.jpg
+  qcode: /images/name.png
   description: 微信扫一扫！加kz96为好友
 
 # 打赏
-reward_comment: 
-wechatpay: /images/微信图片_20220615025118.jpg
+reward_comment: 请kz96喝杯咖啡
+wechatpay: /images/money.png
+#alipay: /images/alipay.jpg
+#bitcoin: /images/bitcoin.png
 
 # Declare license on posts
 post_copyright:
@@ -248,6 +264,19 @@ custom_logo:
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
 
+
+# ---------------------------------------------------------------
+# Font Settings
+# - Find fonts on Google Fonts (https://www.google.com/fonts)
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal italic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+# CAUTION! Safari Version 10.1.2 bug: https://github.com/iissnan/hexo-theme-next/issues/1844
+# To avoid space between header and sidebar in Pisces / Gemini themes recommended to use Web Safe fonts for `global` (and `logo`):
+# Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
+# ---------------------------------------------------------------
 # 字体设置
 font:
   enable: true
@@ -299,6 +328,15 @@ mathjax:
 # Han Support docs: https://hanzi.pro/
 han: true
 
+# Swiftype Search API Key
+#swiftype_key:
+
+# Baidu Analytics ID
+#baidu_analytics:
+
+# Duoshuo ShortName
+#duoshuo_shortname:
+
 # Disqus
 disqus:
   enable: false
@@ -329,6 +367,61 @@ valine:
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
 
+
+# Support for youyan comments system.
+# You can get your uid from http://www.uyan.cc
+#youyan_uid: your uid
+
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+#livere_uid: your uid
+
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+# You can get your Github ID from https://api.github.com/users/<Github username>
+gitment:
+  enable: false
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: false # Hide 'Powered by ...' on footer, and more
+  language: # Force language, or auto switch by theme
+  github_user: # MUST HAVE, Your Github ID
+  github_repo: # MUST HAVE, The repo you use to store Gitment comments
+  client_id: # MUST HAVE, Github client id for the Gitment
+  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
+# Baidu Share
+# Available value:
+#    button | slide
+# Warning: Baidu Share does not support https.
+#baidushare:
+##  type: button
+
+# Share
+# This plugin is more useful in China, make sure you known how to use it.
+# And you can find the use guide at official webiste: http://www.jiathis.com/.
+# Warning: JiaThis does not support https.
+#jiathis:
+  ##uid: Get this uid from http://www.jiathis.com/
+#add_this_id:
+
+# Share
+#duoshuo_share: true
+
+# NeedMoreShare2
+# This plugin is a pure javascript sharing lib which is useful in China.
+# See: https://github.com/revir/need-more-share2
+# Also see: https://github.com/DzmVasileusky/needShareButton
+# iconStyle: default | box
+# boxForm: horizontal | vertical
+# position: top / middle / bottom + Left / Center / Right
+# networks: Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,
+#           Delicious,StumbleUpon,Pinterest,Facebook,GooglePlus,Slashdot,
+#           Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,
+#           Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
   enable: false
   postbottom:
@@ -345,6 +438,66 @@ needmoreshare2:
       boxForm: horizontal
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+#google_site_verification:
+
+# Google Analytics
+#google_analytics:
+
+# Bing Webmaster tools verification setting
+# See: https://www.bing.com/webmaster/
+#bing_site_verification:
+
+# Yandex Webmaster tools verification setting
+# See: https://webmaster.yandex.ru/
+#yandex_site_verification:
+
+# CNZZ count
+#cnzz_siteid:
+
+# Application Insights
+# See https://azure.microsoft.com/en-us/services/application-insights/
+# application_insights:
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: false
+  user_id: 0
+  #admin_nickname: Author
+
+# Post widgets & FB/VK comments settings.
+# ---------------------------------------------------------------
+# Facebook SDK Support.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+facebook_sdk:
+  enable:       false
+  app_id:       #<app_id>
+  fb_admin:     #<user_id>
+  like_button:  #true
+  webmaster:    #true
+
+# Facebook comments plugin
+# This plugin depends on Facebook SDK.
+# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
+facebook_comments_plugin:
+  enable:       false
+  num_of_posts: 10    # min posts num is 1
+  width:        100%  # default width is 550px
+  scheme:       light # default scheme is light (light or dark)
+
+# VKontakte API Support.
+# To get your AppID visit https://vk.com/editapp?act=create
+vkontakte_api:
+  enable:       false
+  app_id:       #<app_id>
+  like:         true
+  comments:     true
+  num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
@@ -373,22 +526,30 @@ firestore:
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
-# #不蒜子统计
-# busuanzi_count:
-#   # count values only if the other configs are false
-#   enable: true
-#   # custom uv span for the whole site
-#   site_uv: true
-#   site_uv_header: <i class="fa fa-user"></i>
-#   site_uv_footer:
-#   # custom pv span for the whole site
-#   site_pv: true
-#   site_pv_header: <i class="fa fa-eye"></i>
-#   site_pv_footer:
-#   # custom pv span for one page only
-#   page_pv: true
-#   page_pv_header: <i class="fa fa-file-o"></i>
-#   page_pv_footer:
+#不蒜子统计
+busuanzi_count:
+  # count values only if the other configs are false
+  enable: true
+  # custom uv span for the whole site
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer:
+  # custom pv span for the whole site
+  site_pv: true
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer:
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer:
+
+
+# Tencent analytics ID
+# tencent_analytics:
+
+# Tencent MTA ID
+# tencent_mta:
+
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
@@ -512,10 +673,9 @@ pace: false
 # For example
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
-
 #特效设置
-#Canvas-nest
-canvas_nest: false
+# Canvas-nest
+#canvas_nest: true
 
 # three_waves
 #three_waves: true

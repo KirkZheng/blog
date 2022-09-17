@@ -4,8 +4,8 @@
 
 # Site
 title: kz96的博客
-subtitle: 
-description: 
+subtitle: '编程&生活'
+description: '爱生活、爱编程'
 keywords:
 author: kz96
 language: zh-Hans
@@ -99,7 +99,7 @@ theme: next
 #   type: ''
 deploy:
   type: git
-  repo: https://github.com/KirkZheng/Blog.git
+  repo: https://github.com/KirkZheng/kirkzheng.github.io.git
   branch: master
 
 search:
