@@ -109,8 +109,6 @@ menu:
 #联系方式
 social:
   GitHub: https://github.com/kirkzheng
-  Twitter: https://twitter.com/mr_kz96
-  Instagram: https://www.instagram.com/kirkzheng/
   给kz96发邮件: mailto:1757225882@qq.com
 
 # ---------------------------------------------------------------
@@ -119,9 +117,9 @@ social:
 
 # 主题设置
 #scheme: Muse
-#scheme: Mist
+scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 # ---------------------------------------------------------------
 # Sidebar Settings
