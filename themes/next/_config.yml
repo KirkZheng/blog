@@ -222,10 +222,10 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /images/name.png
-  description: 微信扫一扫！加kz96为好友
+  description: 微信扫一扫，加kz96为好友。
 
 # 打赏
-reward_comment: 请kz96喝杯咖啡
+reward_comment: 
 wechatpay: /images/money.png
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
