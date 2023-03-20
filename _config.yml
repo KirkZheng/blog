@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: kz96的博客
+title: 郑可可的博客
 subtitle: 
 description: 
 keywords:
-author: kz96
+author: kirkzheng
 language: zh-Hans
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -99,7 +99,7 @@ theme: next
 #   type: ''
 deploy:
   type: git
-  repo: https://github.com/KirkZheng/kirkzheng.github.io.git
+  repo: git@github.com:KirkZheng/kirkzheng.github.io.git
   branch: master
 
 search:
