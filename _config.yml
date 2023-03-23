@@ -11,7 +11,7 @@ author: kirkzheng
 language: zh-Hans
 timezone: Asia/Shanghai
 
-url: http://www.example.com/
+url: http://example.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
