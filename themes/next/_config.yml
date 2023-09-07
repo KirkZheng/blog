@@ -39,12 +39,14 @@ menu:
 
 #联系方式
 social:
+  X: https://www.x.com/kirkzheng/
   GitHub: https://github.com/kirkzheng
   Instagram: https://www.instagram.com/kirkzheng/
+
 # 主题设置
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 #scheme: Gemini
 # Blog rolls
 links_icon: link
@@ -53,13 +55,18 @@ links_layout: inline
 links:
     编码妙妙屋: https://www.skypyb.com/
     Manjusaka: https://www.manjusaka.blog/
+    子舒的主页：https://zburu.com/
+    阮一峰的网络日志：http://ruanyifeng.com/blog/
+
 #头像
 avatar: /images/kz96.jpg
+
 # 目录
 toc:
   enable: true
   number: true
   wrap: true
+
 #侧边栏位置
 sidebar:
   # 只对特定主题有效: left | right (only for Pisces | Gemini).
@@ -75,6 +82,7 @@ sidebar:
 scroll_to_more: true
 save_scroll: true
 excerpt_description: true
+
 #文章预览字数
 auto_excerpt:
   enable: true
@@ -90,11 +98,13 @@ post_wordcount:
   min2read: true
   totalcount: false
   separated_meta: false
+
 # 微信订阅
 wechat_subscriber:
   enabled: true
   qcode: /images/name.png
   description: 微信扫一扫，加kz96为好友。
+
 # 打赏
 reward_comment: 
 wechatpay: /images/money.png
@@ -312,7 +322,7 @@ pace_theme: pace-theme-center-simple
 # pace_theme: pace-theme-minimal
 
 #特效设置
-#canvas_nest: true
+canvas_nest: true
 
 canvas_ribbon:
   enable: false
