@@ -39,9 +39,9 @@ menu:
 
 #联系方式
 social:
-  X: https://www.x.com/kirkzheng/
   GitHub: https://github.com/kirkzheng
   Instagram: https://www.instagram.com/kirkzheng/
+  X: https://www.x.com/kirkzheng/
 
 # 主题设置
 #scheme: Muse
@@ -55,8 +55,8 @@ links_layout: inline
 links:
     编码妙妙屋: https://www.skypyb.com/
     Manjusaka: https://www.manjusaka.blog/
-    子舒的主页：https://zburu.com/
-    阮一峰的网络日志：http://ruanyifeng.com/blog/
+    子舒的博客: https://zishu.me/
+    阮一峰的网络日志: http://ruanyifeng.com/blog/
 
 #头像
 avatar: /images/kz96.jpg
