@@ -110,7 +110,7 @@ post_wordcount:
 #wechatpay: /images/money.png
 
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 mobile_layout_economy: true
