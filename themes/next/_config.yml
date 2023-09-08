@@ -45,8 +45,8 @@ social:
 
 # 主题设置
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 #scheme: Gemini
 # Blog rolls
 links_icon: link
@@ -100,14 +100,14 @@ post_wordcount:
   separated_meta: false
 
 # 微信订阅
-#wechat_subscriber:
-#  enabled: true
-#  qcode: /images/name.png
-#  description: 微信扫一扫，加kz96为好友。
+wechat_subscriber:
+  enabled: true
+  qcode: /images/name.png
+  description: 微信扫一扫，加kz96为好友。
 
 # 打赏
-#reward_comment: 
-#wechatpay: /images/money.png
+reward_comment: 
+  wechatpay: /images/money.png
 
 post_copyright:
   enable: false
