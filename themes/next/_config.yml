@@ -100,17 +100,17 @@ post_wordcount:
   separated_meta: false
 
 # 微信订阅
-#wechat_subscriber:
-#  enabled: true
-#  qcode: /images/name.png
-#  description: 微信扫一扫，加kz96为好友。
+wechat_subscriber:
+  enabled: true
+  qcode: /images/name.png
+  description: 微信扫一扫，加kz96为好友。
 
 # 打赏
-#reward_comment: 
-#wechatpay: /images/money.png
+reward_comment: 
+wechatpay: /images/money.png
 
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 mobile_layout_economy: true
