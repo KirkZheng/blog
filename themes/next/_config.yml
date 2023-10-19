@@ -314,7 +314,7 @@ pace_theme: pace-theme-center-simple
 # pace_theme: pace-theme-minimal
 
 #特效设置
-canvas_nest: true
+canvas_nest: false
 
 canvas_ribbon:
   enable: false
