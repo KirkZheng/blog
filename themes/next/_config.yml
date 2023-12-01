@@ -40,9 +40,9 @@ menu:
 #联系方式
 social:
   GitHub: https://github.com/kirkzheng
-  Instagram: https://www.instagram.com/kirkzheng/
   推特: https://www.x.com/kirkzheng/
   微博: https://weibo.com/mrkirkzheng
+  Instagram: https://www.instagram.com/kirkzheng/
 
 # 主题设置
 #scheme: Muse
@@ -56,9 +56,8 @@ links_layout: inline
 links:
     编码妙妙屋: https://www.skypyb.com/
     Manjusaka: https://www.manjusaka.blog/
-    子舒的博客: https://zishu.me/
-    阮一峰的网络日志: http://ruanyifeng.com/blog/
     核电站: https://hwv430.blogspot.com/
+    阮一峰的网络日志: http://ruanyifeng.com/blog/
 
 #头像
 avatar: /images/kz96.jpg
@@ -315,14 +314,6 @@ pace: false
 pace_theme: pace-theme-center-simple
 # pace_theme: pace-theme-minimal
 
-#特效设置
-canvas_nest: true
-
-canvas_ribbon:
-  enable: false
-  size: 300
-  alpha: 0.6
-  zIndex: -1
 vendors:
   _internal: lib
   jquery:
