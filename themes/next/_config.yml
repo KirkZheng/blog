@@ -111,30 +111,6 @@ custom_logo:
   image:
 highlight_theme: normal
 
-# 字体设置
-font:
-  enable: true
-  host:
-    global:
-      external: true
-      family: Noto Serif SC
-      size: 
-  headings:
-    external: true
-    family:
-    size: 
-  posts:
-    external: true
-    family:
-  logo:
-    external: true
-    family:
-    size:
-    codes:
-      external: true
-      family: Roboto Mono
-      size:
-
 # Han Support docs: https://hanzi.pro/
 han: true
 
