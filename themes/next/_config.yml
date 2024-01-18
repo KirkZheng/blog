@@ -21,7 +21,7 @@ feed:
 footer:
   since: 2018
   icon: user
-  copyright: kz96
+  copyright: kz
   powered: true
 
   theme:
@@ -59,7 +59,7 @@ links:
     Owen的博客: https://www.owenyoung.com/
 
 #头像
-avatar: /images/kz96.jpg
+avatar: /images/kz.jpg
 
 # 目录
 toc:
