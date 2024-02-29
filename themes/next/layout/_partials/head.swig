@@ -158,3 +158,6 @@
 {% include 'head/custom-head.swig' %}
 
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1968433163601700"
+     crossorigin="anonymous"></script>
