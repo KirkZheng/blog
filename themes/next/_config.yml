@@ -37,17 +37,11 @@ menu:
   archives: /archives/
   about: /about/
 
-#联系方式
 social:
-  X: https://twitter.com/KirkZheng
+  X: https://twitter.com/kirkzheng
 
-# 主题设置
-#scheme: Muse
 scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
 
-# 列表设置
 links_icon: link
 links_title: 友情链接
 links_layout: inline
@@ -55,23 +49,16 @@ links:
     核电站: https://hwv430.blogspot.com/
     Owen的博客: https://www.owenyoung.com/
 
-#头像
 avatar: /images/kz.jpg
 
-# 目录
 toc:
   enable: true
   number: true
   wrap: true
 
-#侧边栏位置
 sidebar:
-  # 只对特定主题有效: left | right (only for Pisces | Gemini).
   position: left
   display: post
-  #display: always
-  #display: hide
-  #display: remove
   offset: 12
   b2t: true
   scrollpercent: true
@@ -80,7 +67,6 @@ scroll_to_more: true
 save_scroll: true
 excerpt_description: true
 
-#文章预览字数
 auto_excerpt:
   enable: true
   length: 120
@@ -107,31 +93,27 @@ custom_logo:
   image:
 highlight_theme: normal
 
-# Han Support docs: https://hanzi.pro/
 han: true
 
 valine:
   enable: true
   appid: usx8wtQDFDAb7y9ROGt2NB7h-gzGzoHsz
   appkey: qT8vMXil87JtgYvje4jaEbSU
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: 留下你的足迹吧... # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
+  notify: false
+  verify: false
+  placeholder: 留下你的足迹吧...
+  avatar: mm
+  guest_info: nick,mail,link
+  pageSize: 10
 
-#不蒜子统计
 busuanzi_count:
   enable: true
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
-  # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
-  # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
@@ -142,15 +124,12 @@ local_search:
   top_n_per_article: 1
 exturl: false
 
-# Note tag (bs-callout).
 note:
   style: simple
   icons: false
   border_radius: 3
   light_bg_offset: 0
-# Label tag.
 label: true
-# Tabs tag.
 tabs:
   enable: true
   transition:
@@ -165,14 +144,10 @@ motion:
     post_header: slideDownIn
     post_body: slideDownIn
     coll_header: slideLeftIn
-    # Only for Pisces | Gemini.
     sidebar: slideUpIn
-# Fancybox
 fancybox: true
-# Progress bar in the top during page loading.
 pace: false
 pace_theme: pace-theme-center-simple
-# pace_theme: pace-theme-minimal
 
 vendors:
   _internal: lib
