@@ -32,8 +32,8 @@ seo: true
 index_with_subtitle: true
 menu:
   home: /
-  tags: /tags/
-  categories: /categories/
+  # tags: /tags/
+  # categories: /categories/
   archives: /archives/
   about: /about/
 
