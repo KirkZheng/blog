@@ -1560,7 +1560,7 @@ pre .javascript .function {
   margin: 3px 0 60px 0;
   color: #999;
   font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 .posts-expand .post-meta .post-category-list {
@@ -3016,7 +3016,7 @@ hr {
 }
 .posts-expand .post-title {
   position: relative;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 400;
 }
 @media (max-width: 767px) {
