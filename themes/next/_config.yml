@@ -135,17 +135,17 @@ tabs:
     labels: true
   border_radius: 0
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
-    post_block: fadeIn
-    post_header: slideDownIn
-    post_body: slideDownIn
-    coll_header: slideLeftIn
-    sidebar: slideUpIn
-fancybox: true
+    post_block: false
+    post_header: false
+    post_body: false
+    coll_header: false
+    sidebar: false
+fancybox: false
 pace: false
-pace_theme: pace-theme-center-simple
+pace_theme: pace-theme-minimal
 
 vendors:
   _internal: lib
@@ -162,12 +162,12 @@ vendors:
   algolia_instant_css:
   pace:
   pace_css:
-  canvas_nest:
-  three:
-  three_waves:
-  canvas_lines:
-  canvas_sphere:
-  canvas_ribbon:
+  canvas_nest: false
+  three: false
+  three_waves: false
+  canvas_lines: false
+  canvas_sphere: false
+  canvas_ribbon: false
   han:
   needMoreShare2:
 css: css
